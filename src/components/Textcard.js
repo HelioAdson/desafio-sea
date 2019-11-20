@@ -6,7 +6,6 @@ const Textdiv = styled.div`
     text-emphasis: bold;
     min-width:35%;
     max-width:35%;
-    max-height:100%;
     margin: 0em 2em 0em 2em;
     padding: 2em 2em 0em 2em ;
     border-radius:1em;

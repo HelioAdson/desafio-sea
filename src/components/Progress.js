@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import styled from 'styled-components';
-import { IconContext } from 'react-icons';
-import { FaBuilding, FaFileExcel } from 'react-icons/fa';
+import ProgButton from './ProgButton';
 
 
 const StyledProgressBar = styled.div`
@@ -17,175 +16,35 @@ const StyledProgressBar = styled.div`
     padding: 2em;
     border-radius:1em;
 `;
-
-const SmallButton = styled.button`
-    &:hover {
-    transform: scale(1.2);
-    transition: all 1s 1s easy-out;
-    }
-    border-radius:0.em;
-    background-color:#339ACC;
-`;
-
 export default class Progress extends Component{
     render(){
         return (
           <StyledProgressBar className="bg-light">
-                <div>
-                <SmallButton className="btn">
-                <IconContext.Provider value={{ color: "white" }}>
-                <div>
-                <FaBuilding/>
-                </div>
-                </IconContext.Provider>
-                </SmallButton>
-                <div className="text-primary" >Item 1</div>
-                <div className="text-primary">Concluído</div>
-                </div>
+                <ProgButton item={"Item 1"} status={""}/>
                 <div className="text-primary" style={{paddingBottom:"1em"}}> - - - - - </div>
-                <div>
-                <SmallButton className="btn">
-                <IconContext.Provider value={{ color: "white" }}>
-                <div>
-                <FaBuilding/>
-                </div>
-                </IconContext.Provider>
-                </SmallButton>
-                <div className="text-primary" >Item 1</div>
-                <div className="text-primary"></div>
-                </div>
+                <ProgButton item={"Item 1"} status={""}/>
                 <div className="text-primary" style={{paddingBottom:"1em"}}> - - - - - </div>
-                <div>
-                <SmallButton className="btn">
-                <IconContext.Provider value={{ color: "white" }}>
-                <div>
-                <FaBuilding/>
-                </div>
-                </IconContext.Provider>
-                </SmallButton>
-                <div className="text-primary" >Item 1</div>
-                <div className="text-primary"></div>
-                </div>
+                <ProgButton item={"Item 1"} status={""}/>
                 <div className="text-primary" style={{paddingBottom:"1em"}}> - - - - - </div>
-                <div>
-                <SmallButton className="btn">
-                <IconContext.Provider value={{ color: "white" }}>
-                <div>
-                <FaBuilding/>
-                </div>
-                </IconContext.Provider>
-                </SmallButton>
-                <div className="text-primary" >Item 1</div>
-                <div className="text-primary"></div>
-                </div>
+                <ProgButton item={"Item 1"} status={""}/>
                 <div className="text-primary" style={{paddingBottom:"1em"}}> - - - - - </div>
-                <div>
-                <SmallButton className="btn">
-                <IconContext.Provider value={{ color: "white" }}>
-                <div>
-                <FaBuilding/>
-                </div>
-                </IconContext.Provider>
-                </SmallButton>
-                <div className="text-primary" >Item 1</div>
-                <div className="text-primary"></div>
-                </div>
+                <ProgButton item={"Item 1"} status={""}/>
                 <div className="text-primary" style={{paddingBottom:"1em"}}> - - - - - </div>
-                <div>
-                <SmallButton className="btn">
-                <IconContext.Provider value={{ color: "white" }}>
-                <div>
-                <FaBuilding/>
-                </div>
-                </IconContext.Provider>
-                </SmallButton>
-                <div className="text-primary" >Item 1</div>
-                <div className="text-primary"></div>
-                </div>
+                <ProgButton item={"Item 1"} status={""}/>
                 <div className="text-primary" style={{paddingBottom:"1em"}}> - - - - - </div>
-                <div>
-                <SmallButton className="btn">
-                <IconContext.Provider value={{ color: "white" }}>
-                <div>
-                <FaBuilding/>
-                </div>
-                </IconContext.Provider>
-                </SmallButton>
-                <div className="text-primary" >Item 1</div>
-                <div className="text-primary"></div>
-                </div>
+                <ProgButton item={"Item 1"} status={""}/>
                 <div className="text-primary" style={{paddingBottom:"1em"}}> - - - - - </div>
-                <div>
-                <SmallButton className="btn">
-                <IconContext.Provider value={{ color: "white" }}>
-                <div>
-                <FaBuilding/>
-                </div>
-                </IconContext.Provider>
-                </SmallButton>
-                <div className="text-primary" >Item 1</div>
-                <div className="text-primary"></div>
-                </div>
+                <ProgButton item={"Item 1"} status={""}/>
                 <div className="text-primary" style={{paddingBottom:"1em"}}> - - - - - </div>
-                <div>
-                <SmallButton className="btn">
-                <IconContext.Provider value={{ color: "white" }}>
-                <div>
-                <FaBuilding/>
-                </div>
-                </IconContext.Provider>
-                </SmallButton>
-                <div className="text-primary" >Item 1</div>
-                <div className="text-primary"></div>
-                </div>
+                <ProgButton item={"Item 1"} status={""}/>
                 <div className="text-primary" style={{paddingBottom:"1em"}}> - - - - - </div>
-                <div>
-                <SmallButton className="btn">
-                <IconContext.Provider value={{ color: "white" }}>
-                <div>
-                <FaBuilding/>
-                </div>
-                </IconContext.Provider>
-                </SmallButton>
-                <div className="text-primary" >Item 1</div>
-                <div className="text-primary"></div>
-                </div>
+                <ProgButton item={"Item 1"} status={""}/>
                 <div className="text-primary" style={{paddingBottom:"1em"}}> - - - - - </div>
-                <div>
-                <SmallButton className="btn">
-                <IconContext.Provider value={{ color: "white" }}>
-                <div>
-                <FaBuilding/>
-                </div>
-                </IconContext.Provider>
-                </SmallButton>
-                <div className="text-primary" >Item 1</div>
-                <div className="text-primary"></div>
-                </div>
+                <ProgButton item={"Item 1"} status={""}/>
                 <div className="text-primary" style={{paddingBottom:"1em"}}> - - - - - </div>
-                <div>
-                <SmallButton className="btn">
-                <IconContext.Provider value={{ color: "white" }}>
-                <div>
-                <FaBuilding/>
-                </div>
-                </IconContext.Provider>
-                </SmallButton>
-                <div className="text-primary" >Item 1</div>
-                <div className="text-primary"></div>
-                </div>
+                <ProgButton item={"Item 1"} status={""}/>
                 <div className="text-primary" style={{paddingBottom:"1em"}}> - - - - - </div>
-                <div>
-                <SmallButton className="btn">
-                <IconContext.Provider value={{ color: "white" }}>
-                <div>
-                <FaBuilding/>
-                </div>
-                </IconContext.Provider>
-                </SmallButton>
-                <div className="text-primary" >Item 1</div>
-                <div className="text-primary"></div>
-                </div>
+                <ProgButton item={"Item 1"} status={""}/>
           </StyledProgressBar>
         );
     }
